@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+    <div class="wrapper">
+        <div class="page-header section-dark" style="background-image: url('./Assets/img/image6.jpg')">
+            <div class="filter"></div>
+    		<div class="content-center">
+    			<div class="container" style="text-align: center; color: #fff;">
+    				<div class="title-brand">
+    					<h1 class="presentation-title">Ismael Bett</h1>
+    					<div class="fog-low">
+    						<img src="http://demos.creative-tim.com/paper-kit-2/assets/img/fog-low.png" alt="">
+    					</div>
+    					<div class="fog-low right">
+    						<img src="http://demos.creative-tim.com/paper-kit-2/assets/img/fog-low.png" alt="">
+    					</div>
+    				</div>
+
+    				<h2 class="presentation-subtitle text-center">This is my life!</h2>
+    			</div>
+    		</div>
+            <div class="moving-clouds" style="background-image: url('http://demos.creative-tim.com/paper-kit-2/assets/img/clouds.png'); ">
+
+            </div>
+    	</div>
+  </div>
+
+  <style>
+        :root {
+    --drawer-width: 300px;
+}
+.supernova-drawer--left-toggle,
+.supernova-drawer--right-toggle {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #333333;
+    color: #ffffff;
+    white-space: nowrap;
+    font-size: 10px;
+    transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+
+    position: absolute;
+    top: auto;
+    z-index: 32;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+
+.supernova-drawer--left-toggle {
+    left: 0;
+    right: auto;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+#supernova-drawer--toggle-left,
+#supernova-drawer--toggle-right {
+    display: none;
+}
+.supernova-drawer--left.open,
+.supernova-drawer--right.open {
+    transform: translateX(0%);
+}
+
+.supernova-drawer--left-toggle.open {
+    transform: translateX(var(--drawer-width)) translateY(-50%);
+}
+.supernova-drawer--right-toggle.open {
+    transform: translateX(calc(var(--drawer-width) * -1)) translateY(-50%);
+}
+
+.supernova-drawer--right-toggle {
+    left: auto;
+    right: 0;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+.supernova-drawer--left,
+.supernova-drawer--right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    transition: all 0.2s cubic-bezier(0, 0.55, 0.45, 1);
+    height: auto;
+    width: var(--drawer-width);
+    z-index: 32;
+    padding: 2em;
+}
+
+.supernova-drawer--left {
+    left: 0;
+    transform: translateX(-100%);
+    background: #eeeeee;
+}
+
+.supernova-drawer--right {
+    right: 0;
+    transform: translateX(var(--drawer-width));
+    background: #dddddd;
+}
+
+  </style>
+<!-- offcanvas script -->
+ <script>
+        document.getElementById('supernova-drawer--toggle-left').addEventListener('click', () => {
+        document.querySelector('.supernova-drawer--left-toggle').classList.toggle('open');
+        document.querySelector('.supernova-drawer--left').classList.toggle('open');
+    });
+        document.getElementById('supernova-drawer--toggle-right').addEventListener('click', () => {
+            document.querySelector('.supernova-drawer--right-toggle').classList.toggle('open');
+            document.querySelector('.supernova-drawer--right').classList.toggle('open');
+        });
+
+ </script>
+
+<!-- article 1 -->
+
+
+    <article class="wrapper-playground gyp1" scroll-btween="gyp-back" data-detector="detector" data-background-position="|70 to 30|% center">
+    <header>
+        <h1>My <span>Adventures</span></h1>
+        <p>Scroll down</p>
+    </header>
+    <figure scroll-btween="gyp-front" data-detector="detector" data-left="|3 to -3|%" data-top="|0 to -20|%">
+        <img src="https://olivier3lanc.github.io/Scroll-Btween/img/gyp-front-1000.webp" alt="Bearded vulture">
+    </figure>
+</article>
+<div id="detector"></div>
+<article class="wrapper-playground gyp2" scroll-btween="gyp-back2" data-background-position="|30 to 70|% center">
+    <header>
+        <h1>Living Dream<span> Life</span></h1>
+    </header>
+    <figure scroll-btween="gyp-front2" data-left="|0 to 13|%" data-top="|0 to -5|%">
+        <!-- <img src="https://olivier3lanc.github.io/Scroll-Btween/img/gyp2-front-1000.webp" alt="Bearded vulture"> -->
+        <img src="./assets/img/car2.png"  style="scale: 0.37; transform-origin: center;" alt="Bearded vulture">
+    </figure>
+</article>
+
+<p style="margin-top: .3em; font-size: 5em; text-align:center; color: #fff;">If You are Seeing this That Means You Can Be Free Too!</p>
+
+
+<div class="container " style="display: flex; justify-content: center; align-items: center; margin-top: 1em; 
+    margin-bottom: 2em;">
+<button class="super-button" onclick="window.location.href='https://calendly.com/infocoder4/30min'">
+  <span>Explore My Top Gallery!</span>
+  <svg fill="none" viewBox="0 0 24 24" class="arrow">
+    <path
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-width="2"
+      stroke="currentColor"
+      d="M5 12h14M13 6l6 6-6 6"
+    ></path>
+  </svg>
+</button>
+</div>
+
+
+
+<!-- grid gallery -->
+<div class="gallery-interlock">
+    <img src="./assets/img/image1.jpg" alt="Gallery Image 1" class="gallery-img">
+    <img src="./assets/img/image2.jpg" alt="Gallery Image 2" class="gallery-img">
+    <img src="./assets/img/image4.jpg" alt="Gallery Image 3" class="gallery-img">
+    <img src="./assets/img/image5.jpg" alt="Gallery Image 4" class="gallery-img">
+    <img src="./assets/img/image6.jpg" alt="Gallery Image 5" class="gallery-img">
+    <img src="./assets/img/gallery/hope1.jpg" alt="Gallery Image 6" class="gallery-img">
+    <img src="./assets/img/gallery/hope2.jpg" alt="Gallery Image 7" class="gallery-img">
+    <img src="./assets/img/gallery/hope3.jpg" alt="Gallery Image 8" class="gallery-img">
+    <img src="./assets/img/gallery/hope4.jpg" alt="Gallery Image 9" class="gallery-img">
+    <img src="./assets/img/gallery/hope5.jpg" alt="Gallery Image 10" class="gallery-img">
+    <img src="./assets/img/gallery/hope6.jpg" alt="Gallery Image 11" class="gallery-img">
+    <img src="./assets/img/gallery/hope7.jpg" alt="Gallery Image 12" class="gallery-img">
+    <img src="./assets/img/gallery/hope8.jpg" alt="Gallery Image 13" class="gallery-img">
+    <img src="./assets/img/gallery/hope7.jpg" alt="Gallery Image 14" class="gallery-img">
+
+    <!-- Modal for full image view -->
+    <div id="gallery-modal" style="display:none; position:fixed; z-index:9999; top:0; left:0; width:100vw; height:100vh; background:rgba(0,0,0,0.9); align-items:center; justify-content:center;">
+        <img id="modal-img" src="" alt="Full Image" style="max-width:100vw; max-height:100vh; object-fit:contain; box-shadow:0 0 40px #000; background:#222;">
+    </div>
+
+    <style>
+    .gallery-img {
+        transition: transform 0.3s cubic-bezier(.4,2,.6,1), box-shadow 0.3s;
+        cursor: pointer;
+    }
+    .gallery-img:hover {
+        transform: scale(1.08);
+        z-index: 2;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    #gallery-modal {
+        display: flex;
+    }
+    #gallery-modal[hidden] {
+        display: none !important;
+    }
+    #modal-img {
+        max-width: 100vw;
+        max-height: 100vh;
+        object-fit: contain;
+        background: #010301;
+    }
+    </style>
+
+
+    <script>
+    document.querySelectorAll('.gallery-img').forEach(img => {
+        img.addEventListener('click', function() {
+            const modal = document.getElementById('gallery-modal');
+            const modalImg = document.getElementById('modal-img');
+            modalImg.src = this.src;
+            modal.style.display = 'flex';
+        });
+    });
+    document.getElementById('gallery-modal').addEventListener('click', function(e) {
+        if (e.target === this) this.style.display = 'none';
+    });
+    </script>
+    
+</div>
+<style>
+.gallery-interlock {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-auto-rows: 220px;
+    gap: 0;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery-interlock img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+</style>
+
+<style>
+    html {
+  overscroll-behavior-y: none;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 400vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #071a07;
+}
+
+.wrapper-playground {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: 120%;
+    background-position: 40% center;
+    background-repeat: no-repeat;
+}
+.wrapper-playground.gyp1 {
+    background-image: url(assets/img/image1.jpg);
+}
+.wrapper-playground.gyp2 {
+    background-image: url(assets/img/image7.jpg);
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper-playground.gyp2::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.3);
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+.wrapper-playground::before {
+    content: "";
+    float: left;
+    padding-bottom: 66.66%;
+}
+figure {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+}
+figure img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+}
+header {
+    text-align: center;
+    color: #ffffffc2;
+}
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13vw;
+}
+header h1 span {
+    display: block;
+    position: relative; /* Sets in front of the image */
+    z-index: 1; /* Sets in front of the image */
+}
+header p {
+    margin: 0;
+    font-size: 5vmin;
+    mix-blend-mode: difference;
+}
+body > p {
+    line-height: 1.5em;
+    padding: 1em;
+    max-width: 70ch;
+    margin: auto;
+}
+
+#detector {
+    position: absolute;
+    top: 100vh;
+}
+
+
+/* From Uiverse.io by jawad_8494 */ 
+.super-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 28px;
+  background: linear-gradient(145deg, #0f3d0f, #1c6b1c);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.super-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, #00ff99, #00ffff, #00ff99);
+  animation: rotate 4s linear infinite;
+  z-index: -2;
+}
+
+.super-button::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #0a0a0a;
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.super-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.2);
+}
+
+.super-button:hover .arrow {
+  transform: translateX(6px);
+}
+
+.arrow {
+  width: 22px;
+  height: 22px;
+  transition: transform 0.3s ease-in-out;
+  color: #00ffff;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+</style>
+
+<script src="https://olivier3lanc.github.io/Scroll-Btween/js/ola.min.js"></script>
+<script src="https://olivier3lanc.github.io/Scroll-Btween/js/scroll-btween.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
