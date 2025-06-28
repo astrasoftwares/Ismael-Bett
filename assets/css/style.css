@@ -1,62 +1,4 @@
 
-/*      light colors - used for select dropdown         */
-/*           Font Smoothing      */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: "Montserrat", "Helvetica", Arial, sans-serif;
-    font-weight: 300;
-  }
-  
-  h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-    margin: 30px 0 0;
-  }
-  
-  h1, .h1 {
-    font-size: 3.6em;
-  }
-  
-  h2, .h2 {
-    font-size: 2.8em;
-  }
-  
-  h3, .h3 {
-    font-size: 1.825em;
-    line-height: 1.4;
-    margin: 20px 0 0px;
-  }
-  
-  h4, .h4 {
-    font-size: 1.6em;
-    line-height: 1.2em;
-  }
-  
-  h5, .h5 {
-    font-size: 1.35em;
-    line-height: 1.4em;
-  }
-  
-  h6, .h6 {
-    font-size: 0.9em;
-    font-weight: 600;
-    text-transform: uppercase;
-    line-height: 1.5em;
-  }
-  
-  p {
-    font-size: 15px;
-    line-height: 1.5em;
-    margin-bottom: 5px;
-  }
-  
-  h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
-    color: #9A9A9A;
-    line-height: 1.5em;
-  }
-  
-  h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
-    font-size: 60%;
-  }
   
   .title,
   .card-title,
@@ -178,13 +120,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td
     margin-bottom: 50px;
   }
   
-  /*     General overwrite     */
-  body {
-    color: #66615b;
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
-  }
+  
   
   a {
     color: #51bcda;
